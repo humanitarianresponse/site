@@ -185,7 +185,6 @@
         "drupal/visualization": "^1.0-beta2",
         "drupal/wysiwyg": "^2.2+54-dev",
         "drupal/wysiwyg_filter": "^1.6-rc9",
-        "lkmorlan/icalcreator": "^2.20",
         "symfony/flex": "^1.11",
         "unocha/ocha_snap": "^1.1"
     },
@@ -220,7 +219,6 @@
         "installer-paths": {
             "html/": ["type:drupal-core"],
             "html/profiles/{$name}/": ["type:drupal-profile"],
-            "html/sites/all/libraries/{$name}/": ["type:drupal-library", "type:library"],
             "html/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
             "html/sites/all/themes/{$name}/": ["type:drupal-theme"]
         },
